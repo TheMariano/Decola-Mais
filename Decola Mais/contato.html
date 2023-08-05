@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Decola Mais</title>
+    <link rel="stylesheet" href="./css/contato.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="./fontawesome-free-6.4.2-web/css/all.css">
+</head>
+<body>
+    <header style="background-image: url('img/praia.png');">
+        <div class="container d-flex justify-content-end collapse navbar-collapse float-left" id="navbarSupportedContent">
+            <nav class="navbar">
+                <ul class="ul">
+                    <a class="nav-item" href="index.html">Home</a>
+                    <a class="nav-item" href="promocoes.html">Promoções</a>
+                    <a class="nav-item" href="destinos.html">Destinos</a>
+                    <a href="" class="botao">Contato</a>
+                    <div class="close-icon" onclick="closeMenu()">
+                        <i class="fa-solid fa-circle-xmark"></i>
+                    </div>
+                </ul>
+                <div class="menu-icon" onclick="openMenu()">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+
+    </header>
+    <main>
+        <div>
+            <br><h1 class="contato">Contato</h1>
+            <div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                          <input type="text" class="form-control" placeholder="Nome" aria-label="Nome">
+                        </div>
+                        <div class="col">
+                          <input type="text" class="form-control" placeholder="Sobrenome" aria-label="Sobrenome"> <br>
+                        </div>
+                      </div>
+                    <div class="mb-3">
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="decolamais@exemplo.com">
+                      </div>
+                      <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Assunto:</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>@Desenvolvido by Matheus Mariano - Recode 2023</p>
+        </div>
+    </footer>
+    <script src="./js/main.js"></script>
+</body>
+</html>
